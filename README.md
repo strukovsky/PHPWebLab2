@@ -41,9 +41,13 @@ php artisan migrate:install
 php artisan migrate:fresh
 ```
 
+### Populate DB
+```shell
+php artisan db:seed
+```
+
 ### Run server
 
 ```shell
 php artisan serv      
 ```
-
